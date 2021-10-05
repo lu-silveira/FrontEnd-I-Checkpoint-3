@@ -1,3 +1,6 @@
+
+/* BANNER PARALLAX */
+
 .header-site{
     background-image: url(../img/banner.jpg);
     background-position: center top;
@@ -8,12 +11,6 @@
     padding-top: 300px;
     padding-bottom: 300px;
 
-}
-
-.content-site{
-
-    padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 .imagem-site{
@@ -27,6 +24,13 @@
     padding-top: 200px;
     padding-bottom: 200px;
 
+}
+
+
+.content-site{
+
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .footer-site{
