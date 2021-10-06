@@ -96,6 +96,7 @@ main cite {
   box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.77);
   transition: 0.8s;
   margin-bottom: 32px;
+  cursor: pointer;
 
 }
 
@@ -155,7 +156,7 @@ main cite {
   border: none;
   padding: 6px 32px;
   border-radius: 6px;
-
+  cursor: pointer;
 }
 
 .container-custom .btn-primary-custom {
@@ -183,7 +184,6 @@ main cite {
   border: solid 1px #C2467F;
   padding: 6px 32px;
   background-color: transparent;
-
 }
 
 /* *****Modal****** */

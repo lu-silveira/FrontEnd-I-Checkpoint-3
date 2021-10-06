@@ -13,7 +13,7 @@
  */
     margin-top: 20px;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     /* display: flexbox;*/
 } 
 
@@ -45,6 +45,7 @@
 .botao-form:hover {
     background-color: #21a390;
     color: #feeaf3;
+    font-weight: bold;
 }
 
 .newsletter {

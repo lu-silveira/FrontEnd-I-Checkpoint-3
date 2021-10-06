@@ -10,6 +10,7 @@ DEPOIMENTOS/SAIBA MAIS
     text-align: center;
     padding: 100px;
 }
+
 .fatos {
     width: 70%;
     margin: 200px auto 200px auto;
@@ -36,11 +37,12 @@ DEPOIMENTOS/SAIBA MAIS
 }
 
 .cor-cartao {
- background-color: #bdfff5;
+    background-color: #bdfff5;
 }
 
 .btn-cartao {
     display: flex;
+    
 }
 .veja-mais {
     padding: 5px 40px;
