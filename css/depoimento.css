@@ -121,6 +121,12 @@ main cite {
 
 }
 
+.container-custom .card-body-custom {
+
+  height: 200px;
+
+}
+
 .card-custom .card-body-custom h5 {
 
   font-family: 'Roboto', sans-serif;
