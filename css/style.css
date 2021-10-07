@@ -22,12 +22,12 @@
     margin-right: 100px;
 }
 
-.divdois {
+/* .divdois {
 display: flex;
 align-items: flex-start;
 justify-content: space-between;
 
-}
+} */
 
 .header-site{
     background-image: url(../img/banner.jpg);
@@ -110,4 +110,12 @@ justify-content: space-between;
 
 .lista{
     font-size: 18px;
+}
+
+.cor-link-cc {
+    color: #faf5f5;
+}
+
+.cor-link-cc:hover {
+    color: #c2467f;
 }
