@@ -33,3 +33,4 @@ Essa etapa do curso é onde você vai usar todo seu conhecimento adquirido até 
 <li>12. Seu site tem de ter uma página de detalhes para cada item listado onde haverá uma explicação sobre o mesmo. Ex: A página de um filme teria sua sinopse, link para o trailer e ficha técnica.
 <li>13.Formulário de login, cujo acesso é feito no header.
 <li>14.Todo o site deve estar responsivo.
+</ul>
