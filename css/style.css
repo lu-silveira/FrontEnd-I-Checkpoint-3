@@ -2,6 +2,7 @@
     height: 60px;
     color:black;
     background-color: #ddd;
+    padding: 0 32px;
 }
 .navbar-nav li{
     color: black;
@@ -13,11 +14,12 @@
     border-radius: 20px;
 }
 
-li .btn{
-    margin-right: 5px;    
-}
 .login {
     background-color: #ffaed3;
+}
+#cadastro{
+    box-sizing: border-box;
+    margin-right: 100px;
 }
 
 .header-site{
@@ -46,8 +48,8 @@ li .btn{
     background-size: cover;
     background-attachment:fixed;
     color: #ffffff;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 
@@ -55,17 +57,50 @@ li .btn{
 
     background-color:#585656;
     color:#ffffff;
-    padding-top:100px;
-    padding-bottom: 100px;
+    padding-top:80px;
+    padding-bottom:80px;
 
 }
 
 .logo{
     height: 50px;
-    padding-left: 20px;
     width: 120px;
+}
+
+.navbar .navbar-brand-custom {
+
+    margin: 0;
+    padding: 0;
 }
 
 .nav-item{
     text-transform: uppercase;
+}
+
+.navbar-collapse .navbar-nav li a.menu-ativo {
+
+    color: #141111;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.social img {
+    width: 1.5rem;
+    transition: 1s;
+}
+.social img:hover {
+    width: 1.5rem;
+    cursor: pointer;
+    transform: scale(1.5);
+    /*transform: translateY(-8px);*/
+}
+
+.lista{
+    font-size: 18px;
 }

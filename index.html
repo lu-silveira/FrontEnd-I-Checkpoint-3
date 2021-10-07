@@ -8,6 +8,7 @@
     <title>Outubro Rosa</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/depoimento.css">
+    <link rel="stylesheet" href="./css/textos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
@@ -15,7 +16,8 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="Logo"></a>
+        <a class="navbar-brand navbar-brand-custom" href="index.html"><img class="logo" src="img/logo.png"
+                alt="Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,13 +25,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link menu-ativo" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quem Somos</a>
+                    <a class="nav-link" href="quemSomos.html">Quem Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="depoimentos.html">Depoimentos</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn veja-mais" data-bs-toggle="modal" data-bs-target="#exampleModal"
@@ -58,19 +60,17 @@
                     </form>
                 </div>
                 <div class="modal-footer">
+                    <label for="cadastro">Não tem conta</label>
+                    <a id="cadastro" href="form.html"><button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Cadastre-se</button></a>
+
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
 
-                    <!--
-                      
-                    ATENÇÃO: PARA ONDE O BOTÃO "ACESSAR" DEVE REDIRECIONAR?
-                
-                -->
                     <button type="button" class="btn login">Acessar</button>
                 </div>
             </div>
         </div>
     </div>
-
 
     <section class="header-site">
 
@@ -81,6 +81,44 @@
                 </div>
             </div>
         </div>
+
+    </section>
+
+    <!-- *************************Textos********************** -->
+
+    <section class="container-custom">
+        <h2 class="artigo">O que é o Outubro Rosa?</h2>
+
+        <p class="text-break lh-base">O Outubro Rosa é o movimento internacional para o controle do câncer de mama. É a
+            forma da doença que mais atinge e leva a óbito as mulheres brasileiras.
+            As campanhas de conscientização e de prevenção do câncer de mama começaram nos anos 1990: o icônico laço
+            rosa, símbolo da campanha, foi criado e lançado pela Fundação Susan G. Komen for the Cure na primeira
+            Corrida pela
+            Cura realizada em New York.
+            No Brasil, o Outubro Rosa apareceu em 2002 e ganhou maior apelo popular entre 2008 e 2011, com a realização
+            de corridas pela cura. Eventos técnicos, debates e apresentações são tradicionalmente realizados pelo INCA
+            desde 2010.
+        </p>
+
+        <h2 class="artigo">Fatores de risco</h2>
+
+        <p>
+            O risco de desenvolver a doença está relacionado a difentes fatores de risco: a idade, fatores ambientais,
+            fatores endócrinos, genéticos e hereditários, bem como fatores comportamentais. A obesidade, associada ao
+            sedentarismo, ao consumo de bebidas alcóolicas foram responsáveis por quase oito mil casos de câncer de mama
+            no Brasil em 2020, segundo dados do INCA (Instituto Nacional de Câncer).
+            Você pode encontrar mais informações sobre os fatores de risco <cite><a
+                    href="https://www.inca.gov.br/controle-do-cancer-de-mama/fatores-de-risco" target="_blank">clicando
+                    aqui.</a></cite>
+        </p>
+
+        <h2 class="artigo">Como prevenir?</h2>
+
+        <p class="text-break lh-base">
+            O diagnóstico precoce da doença é muito importante para combater com sucesso o câncer. Esse
+            diagnóstico começa pela prática da mulher em observar e palpar suas próprias mamas e também pela
+            realização de mamografias periódicas após os 40 anos de idade.
+        </p>
 
     </section>
 
@@ -114,7 +152,7 @@
                 <!--Modal: Name-->
                 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                     aria-hidden="true">
-                    <!--Define o tamnanho do modal-->
+                    <!--Define o tamanho do modal-->
                     <div class="modal-dialog modal-xl " role="document">
 
                         <!--Content-->
@@ -187,7 +225,7 @@
                             href="http://www.oncoguia.org.br/depoimento/maria/2825//">http://www.oncoguia.org.br/depoimento/maria/2825/"</a></cite>
                     <div class="card-body card-body-custom">
                         <h5>Maria</h5>
-                        <p>Acabei de ler um depoimento que me deixou impactada e percebi como cada
+                        <p>"Acabei de ler um depoimento que me deixou impactada e percebi como cada
                             um reage de uma forma."</p>
                         <button type="button" data-toggle="modal" data-target="#modal2">
                             Leia mais
@@ -263,7 +301,7 @@
                             href="http://www.oncoguia.org.br/depoimento/nivea-rosa-borges-oliveira/2813//">http://www.oncoguia.org.br/depoimento/nivea-rosa-borges"</a></cite>
                     <div class="card-body card-body-custom">
                         <h5>Rosa</h5>
-                        <p>"Fui surpreendida com um caroço na mama direita no início deste ano de 2021..</p>
+                        <p>"Fui surpreendida com um caroço na mama direita no início deste ano de 2021..."</p>
                         <button type="button" data-toggle="modal" data-target="#modal3">
                             Leia mais
                         </button>
@@ -359,10 +397,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="text-center">Lorem ipsum dolor sit amet.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ad, dolorum harum consequuntur
-                        sunt ea dolorem, dolor quo ducimus delectus fuga amet. Reiciendis molestias beatae nobis
-                        doloremque dolorem asperiores autem</p>
+                    <h2 class="text-center">Sobre o câncer de mama:</h2>
+                    <ul class="lista">
+                        <li>O câncer de mama é um dos três tipos de câncer de maior incidência em todo o mundo. No
+                            Brasil, são 51,9 casos por 100 mil mulheres.</li>
+                        <li>A taxa de mortalidade da doença no Brasil é de 16,4% (2020). A paciente pode ser considerada
+                            curada após cinco anos do desaparecimento da doença.</li>
+                        <li>A incidência da doença aumenta a partir de fatores como: idade (acima dos 40 anos), fatores
+                            hereditários, fatores ambientais e hábitos como o sedentarismo e consumo de bebidas
+                            alcóolicas.</li>
+                        <li>Adotar hábitos saudáveis reduz em até 28% o risco de desenvolver a doença.</li>
+                        <li>O diagnóstico precoce é fundamental para a sobrevivência em 95% dos casos.</li>
+                        <li>fonte: https://www.femama.org.br/site/br/noticia/o-cancer-de-mama-em-numeros</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -376,12 +423,15 @@
                     <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aspernatur.
                     </p>
                 </div>
+                <div class="social">
+                    <img src="./img/SVG/facebook.svg" alt="facebook">
+                    <img src="./img/SVG/instagram.svg" alt="instagram">
+                    <img src="./img/SVG/twitter.svg" alt="twitter">
+                    <img src="./img/SVG/youtube.svg" alt="youtube">
+                </div>
             </div>
         </div>
     </section>
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

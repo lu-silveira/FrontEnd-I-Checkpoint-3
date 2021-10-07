@@ -14,8 +14,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="Logo"></a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand navbar-brand-custom" href="index.html"><img class="logo" src="img/logo.png" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,20 +23,52 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Quem Somos</a>
+          <a class="nav-link" href="quemSomos.html">Quem Somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contato</a>
+          <a class="nav-link menu-ativo" href="depoimentos.html">Depoimentos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
+          <a class="btn veja-mais nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Login</a>
         </li>
       </ul>
     </div>
   </nav>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Faça seu login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email-usuario" class="col-form-label">E-mail de usuário:</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="senha" class="col-form-label">Senha:</label>
+              <input type="password" class="form-control" id="senha">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <label for="cadastro">Não tem conta</label>
+          <a id="cadastro" href="form.html"><button type="button" class="btn btn-secondary"
+              data-bs-dismiss="modal">Cadastre-se</button></a>
+
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+
+          <button type="button" class="btn login">Acessar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- ******************* -->
 
@@ -59,7 +91,7 @@
               Extra Globo</a></cite>
           <div class="card-body card-body-custom">
             <h5>França</h5>
-            <p>O tratamento não traz só efeitos colaterais físicos, mas também psicológico.</p>
+            <p>O tratamento não traz só efeitos colaterais físicos, mas também psicológicos.</p>
             <button type="button" data-toggle="modal" data-target="#modal4">
               Veja mais
             </button>
@@ -708,6 +740,12 @@
         <div class="col-xs-12">
           <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aspernatur.
           </p>
+        </div>
+        <div class="social">
+          <img src="./img/SVG/facebook.svg" alt="facebook">
+          <img src="./img/SVG/instagram.svg" alt="instagram">
+          <img src="./img/SVG/twitter.svg" alt="twitter">
+          <img src="./img/SVG/youtube.svg" alt="youtube">
         </div>
       </div>
     </div>

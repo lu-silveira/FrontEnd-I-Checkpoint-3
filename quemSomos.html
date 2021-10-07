@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quem Somos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/quemSomos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand navbar-brand-custom" href="index.html"><img class="logo" src="img/logo.png"
+                alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-ativo" href="quemSomos.html">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="depoimentos.html">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn veja-mais" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        data-bs-whatever="@mdo">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Faça seu login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email-usuario" class="col-form-label">E-mail de usuário:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="senha" class="col-form-label">Senha:</label>
+                            <input type="password" class="form-control" id="senha">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <label for="cadastro">Não tem conta</label>
+                    <a id="cadastro" href="form.html"><button type="button" class="btn btn-secondary"
+                            data-bs-dismiss="modal">Cadastre-se</button></a>
+
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+
+                    <button type="button" class="btn login">Acessar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="card mb-3">
+            <img src="./img/CTD.png" class="card-img-top" alt="Imagem do Certified Tech Developer" />
+            <div class="card-body">
+                <h1 class="card-title">Quem Somos</h1>
+                <p class="card-text">
+                    Nós somos os alunos da Turma 03N - 1o Bimestre da carreira Certified
+                    Tech Developer (CTD) na Digital House:
+                </p>
+                <ul>
+                    <li>Angelica Lirio</li>
+                    <li>Eduardo Ananias</li>
+                    <li>Gilvane N R Oliveira</li>
+                    <li>Luciana Silveira</li>
+                    <li>Salomão Santos</li>
+                    <li>Tulio F. Santos</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">Lema do projeto</h2>
+                <p class="card-text">
+                    Preocupados com a saúde em meio à pandemia de COVID-19, escolhemos
+                    como tema para este checkpoint homenagear o Outubro Rosa. Sabemos
+                    que, neste momento delicado, há uma demanda reprimida por cuidados
+                    com outras doenças, dentre as quais destacam-se os muitos tipos de
+                    câncer que seguem sem tratamento ou sem diagnóstico. Mas esta é uma
+                    doença que não pode esperar nem por diagnóstico, nem por tratamento.
+                    Pratique o auto-exame. Mantenha hábitos saudáveis. Busque consultas
+                    de rotina em seu plano de saúde ou na Unidade Básica de Saúde mais
+                    próxima. Cuide-se!
+                </p>
+
+            </div>
+            <img src="./img/outubro.webp" class="card-img-bottom" alt="Imagem da logo outubro rosa" />
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
