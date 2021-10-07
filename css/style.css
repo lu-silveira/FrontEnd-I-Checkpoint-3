@@ -1,3 +1,25 @@
+.navbar{
+    height: 60px;
+    color:black;
+    background-color: #ddd;
+}
+.navbar-nav li{
+    color: black;
+}
+
+.nav-item:hover{
+    background-color: #ffaed3;
+    transition: 3s;
+    border-radius: 20px;
+}
+
+li .btn{
+    margin-right: 5px;    
+}
+.login {
+    background-color: #ffaed3;
+}
+
 .header-site{
     background-image: url(../img/banner.jpg);
     background-position: center top;
