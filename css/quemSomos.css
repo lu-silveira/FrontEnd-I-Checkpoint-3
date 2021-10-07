@@ -4,7 +4,7 @@
 
 main {
     padding: 3rem;
-    background: pink;
+    background: #eb7aae;
 }
 
 .logo{
@@ -19,13 +19,13 @@ main {
 
 .card {
     padding: 2rem;
-    border: 1px solid #000;
+    border: 1px solid #141;
     box-shadow: 1px 1px 5px 3px;
 }
 
 .card img {
     width: 500px;
-    height: 200px;
+    height: auto;
     border-radius: 0.25rem;
     box-shadow: 1px 1px 5px 3px;
 }
