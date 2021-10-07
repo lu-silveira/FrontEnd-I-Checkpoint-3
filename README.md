@@ -6,7 +6,7 @@
 <ul>
 <li>Angelica Lirio <a href="https://github.com/angelicablirio">angelicablirio</a> </li>
 <li>Eduardo Ananias <a href="https://github.com/Du-devBR">Du-devBR</a> </li>
-<li>Gilvane Noel <a href="https://github.com/GilvaneDev">GilvaneDev</a> </li>
+<li>Gilvane Oliveira <a href="https://github.com/GilvaneDev">GilvaneDev</a> </li>
 <li>Luciana Silveira <a href="https://github.com/lu-silveira">lu-silveira</a></li>
 <li>Salomão Santos <a href="https://github.com/Salomao-will">Salomao-will</a></li>
 <li>Túlio Santos <a href="https://github.com/tuliofsantos">tuliofsantos</a></li>
