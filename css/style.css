@@ -20,6 +20,13 @@ li .btn{
     background-color: #ffaed3;
 }
 
+.divdois {
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+
+}
+
 .header-site{
     background-image: url(../img/banner.jpg);
     background-position: center top;
