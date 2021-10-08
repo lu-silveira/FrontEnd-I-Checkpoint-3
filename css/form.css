@@ -1,5 +1,5 @@
 
-/* 
+/*
 
 ------ FORMULÁRIO
 
@@ -10,14 +10,15 @@
 
 
 .formulario {
-/* 
+/*
     MARGEM PRECISA SER AJUSTADA DE ACORDO COM ALTURA DA NAVBAR
  */
     margin-top: 20px;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
-    /* display: flexbox;*/
-} 
+    padding: 32px 0;
+
+}
 
 .forms {
     border-radius: 20px;
@@ -26,14 +27,14 @@
     /* height: 100vh; */
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to bottom right, #c2467f, #feeaf3);   
+    background-image: linear-gradient(to bottom right, #c2467f, #feeaf3);
 }
 
 
 .botao-form {
     transition: background-color 1s ease-out 100ms;
     color: whitesmoke;
-    padding: 10px; 
+    padding: 10px;
     text-align: center;
     width: 100px;
     border: 1px solid #6efae5;
@@ -41,7 +42,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
-    
+
 }
 
 .botao-form:hover {
